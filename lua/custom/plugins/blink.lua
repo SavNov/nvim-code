@@ -33,7 +33,11 @@ return {
 			providers = {
 
 				-- Use the thesaurus source
-				codecompanion = { "codecompanion" },
+				codecompanion = {
+					module = "codecompanion",
+					name = "codecompanion",
+					opts = { insert = true },
+				},
 				nerdfont = {
 					module = "blink-nerdfont",
 					name = "Nerd Fonts",
