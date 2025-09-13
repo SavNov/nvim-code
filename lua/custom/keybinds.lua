@@ -19,3 +19,4 @@ vim.keymap.set("n", "t", "f", { noremap = true })
 -- Obsidian
 vim.keymap.set("n", "<leader>ob", ":ObsidianBacklinks<CR>")
 vim.keymap.set("n", "<leader>os", ":ObsidianSearch<CR>")
+return {}
